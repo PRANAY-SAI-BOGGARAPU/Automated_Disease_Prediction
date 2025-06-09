@@ -1,18 +1,21 @@
 # Automated_Disease_Prediction
 # 🩺 Automated Disease Prediction using Machine Learning
 
-:contentReference[oaicite:1]{index=1}
+1. Data Loading & Preprocessing
+Load CSV data, clean entries (e.g., missing values), encode categorical variables, and scale numeric features.
 
----
+2. Model Training (train_model.py)
+Train and compare multiple models: Logistic Regression, Random Forest, SVM. Save best-performing models.
 
-## 🚀 Features
+3. Streamlit App UI (app.py)
+Inputs via sliders, dropdowns, text fields
 
-- :contentReference[oaicite:2]{index=2}  
-- :contentReference[oaicite:3]{index=3}  
-- :contentReference[oaicite:4]{index=4}  
-- :contentReference[oaicite:5]{index=5}  
-- :contentReference[oaicite:6]{index=6}  
+On "Predict", selected model loads via pickle
 
+Show output probability/risk with visual explanation graphs
+
+4. Model Performance & Explainability
+Show ROC curves, confusion matrices, and feature importances for transparency and validation.
 ---
 
 ## 🧩 Installation
